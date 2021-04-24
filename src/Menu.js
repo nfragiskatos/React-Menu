@@ -5,7 +5,6 @@ const Menu = ({ items }) => {
 		<div className="section-center">
 			{items.map((menuItem) => {
 				const { id, title, img, desc, price } = menuItem;
-				console.log({ img });
 				return (
 					<article key={id} className="menu-item">
 						<img alt={title} className="photo" src={img} />
